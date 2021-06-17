@@ -2,37 +2,55 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ListItem {
+  text-align: start;
+  margin: 2vh;
+  background-color: grey;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ItemName {
+  font-size: 18px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.ItemNum {
+  font-size: 12px;
+}
+
+.Filter {
+  font-size: 12px;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Select {
+  padding: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.DetailContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+  background-color: silver;
+  border-radius: 5px;
+}
+
+.Detail {
+  display: flex;
+}
+
+.column {
+  justify-content: center;
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.link {
+  color: blue;
+  cursor: pointer;
 }
